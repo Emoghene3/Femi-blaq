@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ a{
     color: white;
 }
 
+/* section one */
 .section-one{
     width: 100vw;
     height: 90vh;
@@ -77,6 +80,9 @@ button{
  margin-top: 15px;
 } 
 
+
+/* Section-two */ 
+
 .section-two{
     width: 100vw;
     height: 65vh;
@@ -92,7 +98,6 @@ button{
    text-align: center;
 }
 
-/*  */
 .section-two .first{
     flex: 1;
 }
@@ -143,6 +148,7 @@ button{
     margin-top: 40px;
 }
 
+/* Social Media Paddings */
 
 .Tiktok{
     padding-right: 30px;
@@ -170,7 +176,7 @@ button{
 }
 
 
-
+/* Section-Four */
 
 .section-four{
     height: 60vh;
