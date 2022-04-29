@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-one{
+    width: 100vw;
+    height: 90vh;
+    background-color:#0A0119;
+    color: white;
+    justify-content: end;
+    padding: 50px;
+    
+}
+
+.section-one nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px ;
+    margin-bottom: 100px;
+}
+
+.section-one nav ul{
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between ;
+    align-items: center;
+   
+}
+
+.section-one nav ul li {
+    align-items: center;
+    
+    
+}
+
+.first{
+    flex: 2;
+
+}
+
+.second{
+    flex: 1;
+}
+
+.second .circle{
+    width: 280px;
+    height: 270px;
+    border-radius: 50%;
+    background-color: slateblue;
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    position: relative;*/
+    overflow: hidden;
+}
+
+.second .circle .image{
+    padding: 25px 29px;
+    width: 200px;
+    height: 200px;
+}
+
+
+button{
+ border: none;
+ border-radius: 15px;
+ padding: 5px;
+ width: 150px;
+ margin-top: 15px;
+} 
+
+.section-two{
+    width: 100vw;
+    height: 65vh;
+    background-color: #0A0119;
+    color: white;
+    padding: 0px 50px;
+}
+
+
+/* Section-two heading style  */
+ .section-two .heading{
+    margin-bottom: 70px;
+   text-align: center;
+}
+
+/*  */
+.section-two .first{
+    flex: 1;
+}
+
+.section-two .second{
+    flex: 1;
+}
+
+.section-two h3{
+    position: absolute;
+    right: 300px;
+    bottom: 500px;
+}
+
+
+/* section-three */
+
+.section-three{
+    background-color:#0A0119;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.section-three .heading{
+    margin-bottom: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 60px;
+    padding-left: 80px;
+}
+
+.project-section-one{
+    display: flex;
+    margin-left: 0px;
+    color: white;
+    
+}
+
+.project-section-two{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+
+.Tiktok{
+    padding-right: 30px;
+}
+
+.maskgroup{
+    padding-right: 30px;
+}
+.span{
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+
+}
+.project button{
+    background-color: transparent;
+    border: 1px solid white ;
+    border-radius: 5px;
+    width: 90px;
+    color: white;
+}
+.image{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+.section-four{
+    height: 60vh;
+    width: 100vw;
+    background-color: #0A0119;
+    padding: 50px;
+    align-items: center;
+    color: white;
+}
+.section-four-A{
+    text-align: center;  
+}
+
+.section-four .section-four-A h3{
+    padding-top: 20px;
+}
+.section-four-B{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.femiblaqIcon{
+    display: flex;
+    
+}
+
+.femiblaq h4{
+    padding-bottom: 50px;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.femiblaq img{
+    height: 20px;
+}
+
+.femiblaq span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Iconsize{
+    height:  15px;
+    width: 50px;
+}
